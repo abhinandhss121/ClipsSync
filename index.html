@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip Sync - Automate Your Content</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .footer a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .badge {
+            background-color: #3498db;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="badge">Internal Tool</div>
+    <h1>Clip Sync</h1>
+    <p>A private internal dashboard built to securely upload video media files and sync draft captions with your TikTok account.</p>
+
+    <h2>How It Works</h2>
+    <p>Clip Sync monitors a secure cloud folder. When a new video is added, it:</p>
+    <ul>
+        <li>Transcribes the audio using Groq's Whisper API</li>
+        <li>Generates an optimized title and description using OpenRouter (Llama 3 70B)</li>
+        <li>Uploads the video as a draft to your TikTok account</li>
+    </ul>
+
+    <h2>Data Privacy</h2>
+    <p>We respect your privacy. Your videos are processed only for the purpose of creating draft posts. No content is stored permanently or shared with third parties beyond the essential services (Groq for transcription, OpenRouter for caption generation).</p>
+
+    <h2>Contact</h2>
+    <p>For any questions or support requests, please contact us at: <a href="mailto:clip-sync@yourdomain.com">clip-sync@yourdomain.com</a></p>
+
+    <div class="footer">
+        <a href="terms.html">Terms of Service</a> |
+        <a href="privacy.html">Privacy Policy</a>
+    </div>
+</body>
+</html>
